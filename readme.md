@@ -20,4 +20,12 @@ I used two libraries.
 
   <https://github.com/larcus94/LBGIFImage>
 
+The code downloading is below (only 6 lines ! ):
+
+	- (IBAction)download:(id)sender {
+	    NSURL *url = [NSURL URLWithString:strURL.text];
+	    UIImage* image = [UIImage animatedGIFNamed:@"loading3"];
+	    [imageView setImageWithURL:url placeholderImage:image];
+	}
+
 Please pay attention to put the framework `ImageIO.framework` into your project.
