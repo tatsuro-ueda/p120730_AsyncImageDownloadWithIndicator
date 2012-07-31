@@ -20,7 +20,7 @@ I used two libraries.
 
   <https://github.com/larcus94/LBGIFImage>
 
-The code downloading is below (only 6 lines ! ):
+The code downloading is below (only 4 lines ! ):
 
 	- (IBAction)download:(id)sender {
 	    NSURL *url = [NSURL URLWithString:strURL.text];
